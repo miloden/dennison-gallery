@@ -1,0 +1,89 @@
+.gallery{
+	margin-bottom: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery-item{
+	margin: 20px;
+}
+
+.thumbnail{
+	width: 340px;
+	height: 320px;
+	object-fit: cover;
+}
+
+.gallery-item .thumbnail{
+	border: 5px solid #fff;
+}
+
+body{
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/02/Awesome-Blue-Gradient-background-For-You.jpg);
+	color: #ffffff;
+	background-size: cover;
+}
+.page-title{
+	text-align: center;
+	font-weight: 100;
+}
+
+.page-description{
+	border: 1px solid #ffffff;
+	margin:2px;
+	text-align: center;
+	padding: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.float-xs-right{
+	float: right;
+	padding: 40px;
+}
+
+.footer-text{
+	padding: 40px;
+}
+
+.login{
+	color: #ffffff;
+	text-align: center;
+	padding: 30px;
+	border: 1px solid #fff;
+	margin:2px;
+}
+
+.btn{
+	opacity: 0.5;
+}
+
+.carousel-item{
+	height: 700px;
+	width: 1300px;
+}
+
+footer{
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+footer .col-sm-4{
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer .col-sm-8{
+	display: flex;
+	justify-content: flex-start;
+}
+
+footer ul{
+	list-style: none;
+}
+
+footer li img{
+	width: 32px;
+	height: 32px;
+}
